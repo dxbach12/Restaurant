@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+  Name: Bach Dao
+  Date Created: 11/24/2019
+  Most recent revision:
+-->
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+  </head>
+  
+  <body>
+    <header style="text-align: center;"><h1><span style="color: red">Simpli Deli</span></h1>
+      <hr />
+    </header>
+
+    <nav>
+   
+            <p><a href="index.html">Home</a>&emsp;
+            <a href="menu.html">Menu</a></<a>&emsp;
+            <a href="contact.html">Contact Us</a></<a>
+            </p>
+            <hr />
+          </nav>
+        <form action="submit.html" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br />
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone"><br />
+
+            <label for="reason">Reason for Inquiry:</label>
+            <select id="reason" name="reason">
+            <option value="default" selected>Catering</option>
+            <option value="party">Private Party</option>
+            <option value="afternoon">Feedback</option>
+            <option value="evening">Other</option>
+            </select><br />
+            <label for="info">Additional Information:</label>
+                    <textarea id="info" name="info" rows="5"></textarea>
+                    <br />
+                
+                    <p><label>Have you been to the restaurant?</label>
+                    <input type="radio" id="choice1" name="questionnaire" value="no">
+                    <label for="choice1">No</label>
+                    &emsp;
+                    <input type="radio" id="choice2" name="questionnaire" value="yes">
+                    <label for="choice2">Yes</label>
+                    <br />
+                    <label>Best days to contact you:</label>
+                    <input type="checkbox" id="mon" name="days" value="mon">
+                    <label for="mon">M</label>&ensp;
+                    <input type="checkbox" id="tue" name="days" value="tue">
+                    <label for="tue">T</label>&ensp;
+                    <input type="checkbox" id="wed" name="days" value="wed">
+                    <label for="wed">W</label>&ensp;
+                    <input type="checkbox" id="thu" name="days" value="thu">
+                    <label for="thu">Th</label>&ensp;
+                    <input type="checkbox" id="fri" name="days" value="fri">
+                    <label for="fri">F</label>&ensp;
+                    <label>
+                    <br />
+                    <input type="submit" name="submit" value="Submit Request">
+       
+        </form>
+        <footer style="text-align: center;">
+                <hr />
+                <p>7878 Alpha Ln, Plano, TX 75075</p>
+                <p>Tel: (972) 412-4532</p>
+              </footer>
+    </body> 
+</html>
