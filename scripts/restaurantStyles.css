@@ -30,3 +30,36 @@ nav a:hover{
 nav a:active{
   text-decoration: none;
 }
+
+@media (min-width: 992px) {
+  .item {
+    height: 250px;
+  }
+label{
+  text-align: right;
+}
+}
+
+@media (max-width: 992px) {
+  .item {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .item {
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption h2, .carousel-caption h3 {
+    font-size: 130%;
+  }
+}
+
+@media (min-width: 576px) {
+  label{
+    text-align: right;
+  }
+}
